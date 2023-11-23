@@ -1,0 +1,19 @@
+Matilda:    Git-Master
+            Menu-Page
+
+
+
+Andreas:    Logo
+            Event-Page
+
+
+Valerio:    Start-Page
+
+
+
+Ismael:     Navbar
+            About-Page
+
+
+
+Noch offen: Footer
