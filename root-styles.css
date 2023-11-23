@@ -1,0 +1,25 @@
+
+
+/* Font und Fontfarbe fur die ganze Page */
+
+html * {
+    font-family: Arial !important;
+    color: black;
+}
+
+
+
+/* Unsere Farbpalette */
+
+:root {
+    --main-color: red;
+    --secondary-color: blue;
+}
+/*
+Diese werden mit der var() Funktion eingebunden. 
+
+zum Beispiel:
+.box {
+    background-color: var(--main-color);
+} 
+*/
