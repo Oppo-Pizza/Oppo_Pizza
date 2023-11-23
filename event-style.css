@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(198, 212, 212);
+}
+.event{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding-top:200px ;
+}
