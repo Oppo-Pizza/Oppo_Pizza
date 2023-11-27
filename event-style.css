@@ -24,13 +24,13 @@ body{
     color: rgb(198, 212, 212);
 }
 .text{
+
     font-size: 60px;
-    padding-top: 50px;
+    padding-top: 120px;
     color: rgb(51, 114, 217);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
 }
 .img1{
   object-fit: fill;
   width: 80vw;
-
 }
