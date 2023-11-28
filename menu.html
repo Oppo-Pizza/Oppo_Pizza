@@ -15,18 +15,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="header-styles.css" />
+    <link rel="stylesheet" href="root-styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="header-styles.css" />
+    <link rel="stylesheet" href="root-styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
 </head>
 <body>
-<header>
-    <!-- here we will inser the header-->
-</header>
+    <header class="header p-0">
+        <a href="#" class="logo">
+          <img src="imgs/Frame 28.png" alt="Oppo-Pizza" height="100px" />
+        </a>
+  
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+          <i class="bx bx-menu" id="menu-icon"></i>
+          <i class="bx bx-x" id="close-icon"></i>
+        </label>
+  
+        <nav class="navbar">
+          <a href="#" style="--i: 0">HOME</a>
+          <a href="menu.html" style="--i: 1">MENU</a>
+          <a href="index.html" style="--i: 2">EVENTS</a>
+          <a href="about.html" style="--i: 3">OPPO</a>
+          <a href="#" style="--i: 4">KONTAKT</a>
+        </nav>
+      </header>
 <main class="container">
 
-    <h1>Menu</h1>
+    <h1 class="menu">Menu</h1>
 <!-- the next code is for testing if bootstrap is working-->
-<div class=" container  "> <!-- container the idea is to use grid if sposible / -->
+<div class=" container"> <!-- container the idea is to use grid if sposible / -->
 <!--
 
     <div class="container col-xxl-8 px-4 py-5">
@@ -47,7 +79,7 @@
    
     <div class="allcard" > <!-- card--> <!--use row and col dor say what is uh and down-->
        
-        <div> <!-- seccion a -->
+        <div class="section-a"> <!-- seccion a -->
             <div >
                 <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/margaritaPizza.jpeg" alt=" Margheita pizza">
             </div> <!--- img-->
@@ -87,7 +119,7 @@
         <div class="section-b"> <!-- seccion b preis and descriprion-->
             <div>
                 <h4>
-                    Preis: CHF 18
+                    Preis: CHF 16.50
                 </h4>
             </div><!-- preise-->
         <div>
@@ -105,7 +137,7 @@
                 <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/Fungi Pizza.jpeg" alt="">
             </div> <!--- img-->
             <div>
-                <h3>Margherita
+                <h3>
                     Funghi Trifolati
                 </h3>
             </div> <!-- name-->
@@ -140,7 +172,7 @@
         <div class="section-b"><!--begin se ction b-->
         <div>
             <h4>
-                Preis: CHF 16.80Margherita
+                Preis: CHF 16.80
             </h4>
         </div><!-- preise-->
         <div>
@@ -153,8 +185,8 @@
 
     
     
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
-        <div class="section-a"><!-- beginbg section a-->
+    <div class="allcard "> <!-- card--> <!--use row and col dor say what is uh and down-->
+        <div class="section-a "><!-- beginbg section a-->
         <div>
             <img class="pizzapicture"src="/Oppo_Pizza/PizzaMenuImmages/salamiPizza.jpeg" alt="">
         </div> <!--- img-->
@@ -228,25 +260,27 @@
                 </p>
             </div><!-- description-->
             </div><!--end sectzion b-->
-        </div >
+            </div>
+        
     
         <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
             <div class="section-a"><!--beggin sectiomn a-->
             <div>
                 
             <img class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/bergPizza.jpeg" alt="Schweizer Berggipfel Pizza">
-        </div> <!--- img-->Margherita
+        </div> <!--- img-->
+        <div>
             <h3>
                 Schweizer Berggipfel
             </h3>
         </div> <!-- name-->
-        </div class="section-a"><!--end section a-->
+        </div ><!--end section a-->
         <div class="section-b"><!-- beggin section b-->
         <div>
             <h4>
                 Preis: CHF 22.50
 
-            </h4>class=" card-image-top"
+            </h4>
         </div><!-- preise-->
         <div>
             <p>
@@ -287,6 +321,22 @@
 
 </div>
 </main>
+<div class="container-flow" style="background-color: var(--main-color);">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted ">copyright© 2023 Oppo Pizza</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="home.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="menu.html" class="nav-link px-2 text-muted">Menu</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Events</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Über uns</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kontakt</a></li>
+      </ul>
+    </footer>
 <footer>
     <!-- here we will insert the footer-->
 </footer>
