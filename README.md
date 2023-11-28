@@ -29,7 +29,7 @@ Ismael:     Oppo-Page(about)
 - Siehe oben im README.
 
 ### Wo ändere ich das Logo:
-- Navigiere auf jeder html Page zum header. Du kannst das Logo ändern indem du dein neues Logo im img-Tag im Anchor Tag einfügst. Zum Beispiel
+- Navigiere auf jeder html Page zum header. Du kannst das Logo ändern indem du dein neues Logo im img-Tag einfügst. Du findest diesen schnell mit Controll+F und suche nach Logo. Zum Beispiel
 
 ``` html
 <a href="#" class="logo">
@@ -43,4 +43,7 @@ Ismael:     Oppo-Page(about)
 ```
 
 ### Wie füge ich weitere Menupunkte hinzu:
-- Navigiere zum nav-Tag im header. Füge einen weiteren a
+- Navigiere zum nav-Tag im header. Füge einen weiteren Anchor-Tag mit deinem neunen html hinzu.
+
+### Ich möchte die Hintergrundfarbe ändern, wo mache ich das:
+- Füge im root-styles.css im html * deine background-color ein.
