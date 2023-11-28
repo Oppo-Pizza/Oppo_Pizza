@@ -15,15 +15,50 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="about-styles.css" />
     <link rel="stylesheet" href="root-styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="header-styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicon_io/site.webmanifest">
+
+    <title>Über uns/Kontakt</title>
+
   </head>
+
   <body>
 
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="imgs/Frame 28.png" alt="Oppo-Pizza" height="100px" />
+    </a>
 
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="home.html" style="--i: 0">HOME</a>
+      <a href="menu.html" style="--i: 1">MENU</a>
+      <a href="index.html" style="--i: 2">EVENTS</a>
+      <a href="about.html" style="--i: 3">OPPO</a>
+      <a href="about.html#contactCon" style="--i: 4">KONTAKT</a>
+    </nav>
+  </header>
+
+  <main>
+
+  
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 deskTopBox">
       <div class="col-10 col-sm-8 col-lg-6">
         <img
           src="imgs/risto2.jpeg"
@@ -34,6 +69,7 @@
           loading="lazy"
         />
       </div>
+
       <div class="col-lg-6 rounded-3 border shadow-lg">
         <h1 class="display-5 fw-bold lh-1 mb-3 p-3">Über Uns</h1>
         <p class="lead p-3">
@@ -54,8 +90,7 @@
     </div>
 
     <div
-      class="row flex-lg-row align-items-center g-5 py-5 weDontUseStupidNamesForAReason"
-      
+      class="row flex-lg-row align-items-center g-5 py-5 weDontUseStupidNamesForAReason deskBottomBox"
     >
       <div class="col-10 col-sm-8 col-lg-6">
         <img
@@ -85,51 +120,238 @@
       </div>
     </div>
 
-    <div class="container-fluid row">
-      <div class="container mt-5 col-6">
-        <form action="#" method="post" class="contact-form">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              required
-            />
-          </div>
+    
 
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
+    <div
+      class="container-fluid text-white py-4 mobileTopBox"
+      style="
+        background-image: url('imgs/risto2.jpeg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+      "
+    >
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-10 col-md-8 col-lg-6 text-center">
+          <div
+            class="rounded-3 border shadow p-3"
+            style="background-color: rgba(255, 255, 255, 0.5)"
+          >
+            <h1 class="display-5 fw-bold lh-1 mb-3">Über Uns</h1>
+            <p class="lead">
+              Herzlich willkommen bei Ristorante Pizza Oppo – dem Ort, an dem
+              Pizza nicht nur ein Gericht ist, sondern eine Leidenschaft.
+              <br /><br />
 
-          <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="5"
-              required
-            ></textarea>
-          </div>
+              Unsere Geschichte beginnt mit dem Streben nach Perfektion:
+              knuspriger Teig, sorgfältig ausgewählte Zutaten und eine Prise
+              Kreativität. Hier bei Oppo ist jede Pizza ein Kunstwerk, von Hand
+              gefertigt und mit Liebe zubereitet. <br /><br />
 
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      <div class="col-6" style="background-color: rgb(228, 101, 101)">
-        <p>placeholder</p>
+              Unser Team aus leidenschaftlichen Pizzakünstlern verbindet
+              traditionelle Handwerkskunst mit einem Hauch von Innovation. Das
+              Ergebnis? Ein einzigartiges Geschmackserlebnis, das Ihre Sinne
+              verführt und Ihre Geschmacksnerven zum Tanzen bringt.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
-   
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/c1.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/c2.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/c3.jpeg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div
+      class="container-fluid text-white py-4 mobileBottomBox"
+      style="
+        background-image: url('imgs/risto3.jpeg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+      "
+    >
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-10 col-md-8 col-lg-6 text-center">
+          <div
+            class="rounded-3 border shadow p-3"
+            style="background-color: rgba(255, 255, 255, 0.5)"
+          >
+            <p class="lead">
+              Wir laden Sie ein, Teil unserer Pizza-Familie zu werden, wo jedes
+              Lächeln, jede Unterhaltung und jeder Bissen zu einem
+              unvergesslichen Moment wird. Bei Ristorante Pizza Oppo geht es
+              nicht nur um Essen – es geht um gemeinsame Freude und kulinarische
+              Entdeckungen. <br /><br />
+
+              Treten Sie ein und lassen Sie sich von der Magie echter
+              italienischer Küche verführen. Willkommen bei Ristorante Pizza
+              Oppo – wo jede Pizza eine Geschichte erzählt und wir gemeinsam
+              Genuss feiern. <br /><br />
+
+              Guten Appetit und herzliche Grüße, <br /><br />
+
+              Das Oppo-Team
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container mt-5 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-4">Öffnungszeiten</h3>
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Montag: <span class="float-end">11:00 - 21:00 Uhr</span></li>
+                <li class="list-group-item">Dienstag: <span class="float-end">11:00 - 21:00 Uhr</span></li>
+                <li class="list-group-item">Mittwoch: <span class="float-end">11:00 - 21:00 Uhr</span></li>
+                <li class="list-group-item">Donnerstag: <span class="float-end">11:00 - 21:00 Uhr</span></li>
+                <li class="list-group-item">Freitag: <span class="float-end">11:00 - 22:00 Uhr</span></li>
+                <li class="list-group-item">Samstag: <span class="float-end">12:00 - 22:00 Uhr</span></li>
+                <li class="list-group-item">Sonntag: <span class="float-end">Geschlossen</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="container mt-5 col-md-6">
+          <div class="card">
+            <div  id="contactCon" class="card-body">
+              <h3 class="card-title text-center mb-4">Kontakt/Reservationen</h3>
+              <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+    
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+    
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+
+  </main>
+
+  <div class="container-fluid" style="background-color: var(--main-color);">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted text-white">© 2023 Oppo Pizza</p>
   
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end text-white">
+        <li class="nav-item"><a href="home.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="menu.html" class="nav-link px-2 text-muted">Menu</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Events</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Über uns</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kontakt</a></li>
+      </ul>
+    </footer>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

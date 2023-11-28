@@ -1,0 +1,19 @@
+#logoMain {
+    transform: translateY(300px);
+}
+body {
+    margin: 50px;
+}
+
+@media screen and (min-width: 1300px) {
+    
+    body{
+        margin: 100px;
+    } 
+    .bootPic {
+        align-content: center;
+    }
+    
+    
+
+  }
