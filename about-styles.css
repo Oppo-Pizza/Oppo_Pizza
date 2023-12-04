@@ -1,5 +1,14 @@
-body{
-    margin: 50px;
+
+
+  body {
+    overflow-x: hidden;
+  }
+  
+
+
+body{   
+    margin: 0px;
+    max-width: 100%;
 }
 
 .contact-form {
@@ -16,7 +25,7 @@ body{
 
 @media screen and (max-width: 990px){
     .deskTopBox, .deskBottomBox{
-        display: none;
+        display: flex;
     }
   }
 
@@ -25,7 +34,7 @@ body{
         transform: translateY(-300px) !important;
     }
     body{
-        margin: 100px;
+        margin: 0px;
     }  
   }
 
@@ -54,3 +63,10 @@ body{
     display: flex;
     justify-content: space-between;
   } 
+
+.stuff{
+    text-align: center;
+}
+footer{
+    margin-top: auto;
+}
