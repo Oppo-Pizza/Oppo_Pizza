@@ -10,14 +10,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous"
      />
-    
-    <link rel="stylesheet" type="text/css" href="/Oppo_Pizza/menu-styles.css" >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="header-styles.css" />
-    <link rel="stylesheet" href="root-styles.css" />
-    <link
+     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet" />
       <link rel="stylesheet" href="header-styles.css" />
@@ -26,18 +19,21 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
 
+    <link rel="stylesheet" type="text/css" href="/Oppo_Pizza/menu-styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header-styles.css" />
+    <link rel="stylesheet" href="root-styles.css" />
+   
+    
+    <link rel="stylesheet" type="text/css" href="/Oppo_Pizza/menu-styles.css" >
 </head>
 <body>
     <header class="header p-0">
         <a href="#" class="logo">
-          <img src="imgs/Frame 28.png" alt="Oppo-Pizza" height="100px" />
+          <img src="imgs/Frame 28.png" alt="Oppo-Pizza" height="100px"  />
         </a>
     
         <input type="checkbox" id="check" />
@@ -54,14 +50,15 @@
           <a href="about.html#contactCon" style="--i: 4">KONTAKT</a>
         </nav>
       </header>
+
 <main class="container">
 
-    <h1 class="menu">Menu</h1>
+   
 <!-- the next code is for testing if bootstrap is working-->
 <div class=" container"> <!-- container the idea is to use grid if sposible / -->
-<!--
 
-    <div class="container col-xxl-8 px-4 py-5">
+  <h1 class="menu">Menu</h1>
+    <!-- <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -75,213 +72,191 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div> --> 
    
-    <div class="allcard" > <!-- card--> <!--use row and col dor say what is uh and down-->
+      <ul>
+    <li class="allcard" > <!-- card--> <!--use row and col dor say what is uh and down-->
        
         <div class="section-a"> <!-- seccion a -->
             <div >
-                <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/margaritaPizza.jpeg" alt=" Margheita pizza">
+                <img  class="pizzapicture" src="./PizzaMenuImmages/margaritaPizza.jpeg" alt=" Margheita pizza">
             </div> <!--- img-->
-            <div>
-                <h3>
-                    Margherita
-                </h3>
-            </div> <!-- name-->
+            
         </div> <!-- close secion A-->
     
        <div class="section-b"> <!-- seccion b preis and descriprion-->
         <div>
-            <h4>
-                Preis: CHF 15.50
-            </h4>
-        </div><!-- preise-->
+            <h2>
+                Margherita  15.50fr.
+            </h2>
+        </div> <!-- name-->
+        
         <div>
             <p>
                 Die Margherita, ein zeitloser Klassiker, begeistert mit einer perfekten Kombination aus Tomatensauce, Mozzarella und frischem Basilikum. Ein schlichter Genuss, der die Essenz der italienischen Küche einfängt.
             </p>
         </div><!-- description-->
     </div> <!--close section b-->
-    </div> <!--end of card-->
+</li> <!--end of card-->
    
    
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+    <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a"> <!-- seccion a foto and name lest/right depending-->
             <div>
-                        <img class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/pestoPizza.jpg" alt=" Pesto pizza">
+                        <img class="pizzapicture" src="./PizzaMenuImmages/pestoPizza.jpg" alt=" Pesto pizza">
             </div> <!--- img-->
-            <div>
-                <h3>
-                    Prosciutto e Rucola
-                </h3>
-            </div> <!-- name-->
+            
         </div><!--end section a-->
         <div class="section-b"> <!-- seccion b preis and descriprion-->
             <div>
-                <h4>
-                    Preis: CHF 16.50
-                </h4>
-            </div><!-- preise-->
+                <h2>
+                    Prosciutto e Rucola 16.50fr.
+                </h2>
+            </div> <!-- name-->
+            
         <div>
             <p>
                Fein geschnittener Prosciutto trifft auf frische Rucola, ergänzt durch Tomatensauce und Mozzarella. Diese Pizza verbindet zarte Fleischigkeit mit einer erfrischenden Note grüner Würze.
             </p>
         </div><!-- description-->
         </div> <!--end section b-->
-    </div >
+    </li >
    
    
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+    <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a"><!--section a-->
             <div>
-                <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/Fungi Pizza.jpeg" alt="">
+                <img  class="pizzapicture" src="./PizzaMenuImmages/Fungi Pizza.jpeg" alt="">
             </div> <!--- img-->
-            <div>
-                <h3>
-                    Funghi Trifolati
-                </h3>
-            </div> <!-- name-->
+           
         </div><!-- end section a-->
         <div class="section-b"> <!--section b-->
-        <div>
-            <h4>
-                Preis: CHF 17.50
-            </h4>
-        </div><!-- preise-->
+            <div>
+                <h2>
+                    Funghi Trifolati 17.50fr.
+                </h2>
+            </div> <!-- name-->
+        
         <div>
             <p>
                 Beschreibung: Ein Pilzliebhabertraum mit einer Mischung aus verschiedenen Pilzsorten, Tomatensauce und aromatischem Käse. Die herzhaften Pilze sorgen für einen intensiven Geschmack.
             </p>
         </div><!-- description-->
         </div><!--end sewction b-->
-    </div >
+    </li >
 
 
 
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+    <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a"><!--section a-->
         <div>
-            <img  class="pizzapicture"src="PizzaMenuImmages/pestoVegiPizza.jpeg" alt=" Vegan Vegi Pizza">
+            <img  class="pizzapicture"src="./PizzaMenuImmages/pestoVegiPizza.jpeg" alt=" Vegan Vegi Pizza">
         </div> <!--- img-->
-        <div>
-            <h3>
-                Vegetarische Pesto-Pizza
-            </h3>
-        </div> <!-- name-->
+        
         </div><!--end section a-->
         <div class="section-b"><!--begin se ction b-->
-        <div>
-            <h4>
-                Preis: CHF 16.80
-            </h4>
-        </div><!-- preise-->
+            <div>
+                <h2>
+                    Vegetarische Pesto-Pizza 16.80fr.
+                </h2>
+            </div> <!-- name-->
+        
         <div>
             <p>
                 Frisches Gemüse, darunter Paprika, Zucchini und Tomaten, harmonieren perfekt mit Basilikumpesto und plant based vegan Mozzarella. Eine geschmackvolle vegetarische Option.
             </p>
         </div><!-- description-->
         </div><!--end section b-->
-    </div ><!--end of card-->
+    </li ><!--end of card-->
 
     
     
-    <div class="allcard "> <!-- card--> <!--use row and col dor say what is uh and down-->
+    <li class="allcard "> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a "><!-- beginbg section a-->
         <div>
-            <img class="pizzapicture"src="/Oppo_Pizza/PizzaMenuImmages/salamiPizza.jpeg" alt="">
+            <img class="pizzapicture"src="./PizzaMenuImmages/salamiPizza.jpeg" alt="">
         </div> <!--- img-->
-        <div>
-            <h3>
-                Salami Speciale
-
-            </h3>
-        </div> <!-- name-->
+        
         </div><!--end section a-->
         <div class="section-b"><!-- begin section b-->
-        <div>
-            <h4>
-                Preis: CHF 19.50
-            </h4>
-        </div><!--preise-->
+            <div>
+                <h2>
+                    Salami Speciale 19.50fr. 
+    
+                </h2>
+            </div> <!-- name-->
+        
         <div>
             <p>
                 Großzügig belegte Salami, Tomatensauce und eine Mischung aus pikantem Käse machen diese Pizza zu einem wahren Gaumenschmaus für Liebhaber herzhafter Würze.
             </p>
         </div><!-- description-->
         </div><!--end section b-->
-    </div >
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+    </li >
+
+    <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a"><!--beginning section a-->
         <div>
-            <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/furchtePizza.jpeg" alt=" Fruchte Pizza">
+            <img  class="pizzapicture" src="./PizzaMenuImmages/furchtePizza.jpeg" alt=" Fruchte Pizza">
         </div> <!--- img-->
-        <div>
-            <h3>
-                Exotische Früchte
-            </h3>
-        </div> <!-- name-->
+        
         </div><!--end section a-->
         <div class="section-b"><!--beggining section b-->
-        <div>
-            <h4>
-                Preis: CHF 21.00
-            </h4>
-        </div><!-- preise-->
+            <div>
+                <h2>
+                    Exotische Früchte 21.00fr
+                </h2>
+            </div> <!-- name-->
+            
         <div>
             <p>
                 Eine kreative Mischung aus Hühnchen, Currysoße, Ananas und Mango verleiht dieser Pizza eine exotische Note. Ein Geschmackserlebnis, das überrascht und begeistert.
             </p>
         </div><!-- description-->
         </div><!-- en section b-->
-        </div >
+    </li >
 
 
 
-        <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+        <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
             <div class="section-a" ><!--beggining section a-->
             <div>
-                <img  class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/fetaPizza.jpeg" alt=" spinach and feta Pizza">
+                <img  class="pizzapicture" src="./PizzaMenuImmages/fetaPizza.jpeg" alt=" spinach and feta Pizza">
             </div> <!--- img-->
-            <div>
-                <h3>
-                    Spinat und Feta
-                </h3>
-            </div> <!-- name-->
+            
             </div><!--end section a-->
             <div class="section-b"><!--beggining section b-->
-            <div>
-                <h4>
-                    Preis: CHF 18.50
-                </h4>
-            </div><!-- preise-->
+                <div>
+                    <h2>
+                        Spinat und Feta 18.50fr.
+                    </h2>
+                </div> <!-- name-->
+            
             <div>
                 <p>
                     Frischer Spinat, Feta-Käse und Tomatensauce vereinen sich auf dieser Pizza zu einer leichten und dennoch herzhaften Köstlichkeit. Ideal für Liebhaber mediterraner Aromen.
                 </p>
             </div><!-- description-->
             </div><!--end sectzion b-->
-            </div>
+        </li>
+
         
     
-        <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+        <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
             <div class="section-a"><!--beggin sectiomn a-->
             <div>
                 
-            <img class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/bergPizza.jpeg" alt="Schweizer Berggipfel Pizza">
+            <img class="pizzapicture" src="./PizzaMenuImmages/bergPizza.jpeg" alt="Schweizer Berggipfel Pizza">
         </div> <!--- img-->
-        <div>
-            <h3>
-                Schweizer Berggipfel
-            </h3>
-        </div> <!-- name-->
+        
         </div ><!--end section a-->
         <div class="section-b"><!-- beggin section b-->
-        <div>
-            <h4>
-                Preis: CHF 22.50
-
-            </h4>
-        </div><!-- preise-->
+            <div>
+                <h2>
+                    Schweizer Berggipfel 22.50fr.
+                </h2>
+            </div> <!-- name-->
+            
         <div>
             <p>
                 hweizer Spezialitäten wie würzigem Raclette-Käse, Kartoffeln, Zwiebeln und Schinken verkörpert diese Pizza den rustikalen Charme der Alpen. Ein Fest für die Sinne.
@@ -289,27 +264,24 @@
         </div><!-- description-->
         </div><!--end section b-->
 
-    </div >
+    </li >
 
 
 
-    <div class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
+    <li class="allcard"> <!-- card--> <!--use row and col dor say what is uh and down-->
         <div class="section-a"><!--+beggin section a -->
         <div>
-            <img class="pizzapicture" src="/Oppo_Pizza/PizzaMenuImmages/rusticPizza.jpeg" alt=" rustic Pizza">
+            <img class="pizzapicture" src="./PizzaMenuImmages/rusticPizza.jpeg" alt=" rustic Pizza">
         </div> <!--- img-->
-        <div>
-            <h3>
-                Rustikale Rösti-Pizza
-            </h3>
-        </div> <!-- name-->
+        
     </div><!--end sectiona a-->
     <div class="section-b"><!--begin section b-->
         <div>
-            <h4>
-                Preis: CHF 20.00
-            </h4>
-        </div><!-- preise-->
+            <h2>
+                Rustikale Rösti-Pizza fr
+            </h2>
+        </div> <!-- name-->
+        
         <div>
             <p>
                 Diese einzigartige Kreation kombiniert knusprige Rösti-Scheiben mit saftigem Speck, Zwiebeln und einem Hauch von Rosmarin. Die goldene Rösti-Textur verleiht der Pizza eine rustikale Note, während der Speck einen herzhaften Geschmack beisteuert. Tomatensauce und Mozzarella runden dieses alpine Geschmackserlebnis ab.  
@@ -317,9 +289,10 @@
         </div><!-- description-->
         </div><!--end section b-->
 
-    </div >
-
+    </li >
+</ul>
 </div>
+
 </main>
 <div class="container-flow" style="background-color: var(--main-color);">
 
